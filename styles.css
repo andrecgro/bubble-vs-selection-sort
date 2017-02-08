@@ -1,0 +1,19 @@
+html, body, .container-fluid, #results, .no-float{
+  height:100%;
+}
+.border-left{
+  border-left: 2px solid black;
+}
+div#insert-data{
+  background-color:#CDCDCB;
+}
+#insert-data h1{
+  color:#07163F;
+}
+span{
+font-size:26px;
+color: #06c;
+}
+small.red{
+  color:red;
+}

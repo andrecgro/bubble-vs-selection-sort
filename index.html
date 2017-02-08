@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
+
+  <title>Projeto e Análise de Algoritmos - DC / UFSCAR - 2º Semestre 2016</title>
+</head>
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12" id="insert-data">
+        <h1 class="text-center">Selection Sort vs Bubble Sort</h1>
+        <div class="col-md-4 col-md-offset-4">
+          <form>
+            <div class="form-group">
+              <label for="orderingVector">Sequência de números separados por vírgula para ordenação</label>
+              <input type="text" class="form-control" id="orderingVector" aria-describedby="vetor" placeholder="1,4,5,6,8,1,2,3,5,7,8">
+              <small id="vetor" class="red form-text text-muted">Caso coloque caracteres não numéricos, será inserido NaN(Not a Number) na lista.</small>
+                <button onclick="ordenaCustom();"id="userList" type="button" class="btn btn-primary btn-lg btn-block">Ordenar minha lista!</button>
+                <button onclick="ordenaRandom();"id="randomList" type="button" class="btn btn-default btn-lg btn-block">Ordenar randômico!</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="row" id="results">
+      <div class="col-md-6 no-float">
+        <h2 class="text-center">Selection Sort</h2>
+        <div class="col-md-12 selection-sort">
+          <div class="col-md-2">
+            <ul class="list-group" id="selection-sort"></ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 no-float border-left">
+        <h2 class="text-center">Bubble Sort</h2>
+        <div class="col-md-12 bubble-sort">
+          <div class="col-md-12">
+            <ul class="list-group" id="bubble-sort">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- jQuery -->
+  <script
+			  src="https://code.jquery.com/jquery-3.1.1.min.js"
+			  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+			  crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- Custom JS -->
+  <script src="javascript.js" charset="utf-8"></script>
+</body>
+</html>
