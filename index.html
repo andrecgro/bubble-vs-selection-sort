@@ -24,7 +24,7 @@
               <label for="orderingVector">Sequência de números separados por vírgula para ordenação</label>
               <input type="text" class="form-control" id="orderingVector" aria-describedby="vetor" placeholder="1,4,5,6,8,1,2,3,5,7,8">
               <small id="vetor" class="red form-text text-muted">Caso coloque caracteres não numéricos, será inserido NaN(Not a Number) na lista.</small>
-                <button onclick="ordenaCustom();"id="userList" type="button" class="btn btn-primary btn-lg btn-block">Ordenar minha lista!</button>
+                <button onclick="ordenaBubbleRandom();"id="userList" type="button" class="btn btn-primary btn-lg btn-block">Ordenar minha lista!</button>
                 <button onclick="ordenaRandom();"id="randomList" type="button" class="btn btn-default btn-lg btn-block">Ordenar randômico!</button>
             </div>
           </form>
@@ -35,7 +35,7 @@
       <div class="col-md-6 no-float">
         <h2 class="text-center">Selection Sort</h2>
         <div class="col-md-12 selection-sort">
-          <div class="col-md-2">
+          <div class="col-md-12">
             <ul class="list-group" id="selection-sort"></ul>
           </div>
         </div>
