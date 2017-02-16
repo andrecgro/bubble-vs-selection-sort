@@ -1,6 +1,6 @@
 # Animated Bubble and Selection Sort Iteration
 
-Project proposed by the Professor Ednaldo Pizzolato, who was giving a Lecture called "Design and Analyzes of Algotithms" at the University of São Carlos
+Project proposed by the Professor Ednaldo Pizzolato, who was giving a Lecture called "Design and Analysis of Algorithms" at the University of São Carlos
 
 ## The Idea
 
@@ -11,7 +11,7 @@ The main idea for this project was to build an animated step by step solution, i
  
 ## The Solution
  
-We developed a solution that uses HTML, CSS and JavaScript to apply Bubble and Selection sort to the same vector and iterates animating the algorithm step by step.
+We developed a solution that uses HTML, CSS and JavaScript to apply Bubble and Selection Sort to the same vector and iterates animating the algorithm step by step.
 The vector to be ordened, could be:
 
   - Given vector ( fill the input text and click the first button )
