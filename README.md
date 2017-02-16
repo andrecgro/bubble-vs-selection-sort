@@ -15,6 +15,6 @@ We developed a solution that uses HTML, CSS and JavaScript to apply Bubble and S
 The vector to be ordened, could be:
 
   - Given vector ( fill the input text and click the first button )
-  - Random vecotr ( just click the second button )
+  - Random vector ( just click the second button )
   
   *It should be an integer's vector*
