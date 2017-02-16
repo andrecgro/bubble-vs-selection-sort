@@ -1,6 +1,6 @@
 # Animated Bubble and Selection Sort Iteration
 
-Projetct proposed by the Professor Ednaldo Pizzolato, who was giving a Lecture called "Design and Analyzes of Algotithms" at the University of São Carlos
+Project proposed by the Professor Ednaldo Pizzolato, who was giving a Lecture called "Design and Analyzes of Algotithms" at the University of São Carlos
 
 ## The Idea
 
